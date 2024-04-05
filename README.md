@@ -1,6 +1,7 @@
 # serverless-microservice-2
 
-# Serverless Application with REST API – Part 1
+We are creating the following architecture to submit and process orders from an ecommerce website using AWS Lambda, SQS, DynamoDB, API Gateway and Amazon S3.
+![Microservice Architecture](./Architecture.jpg)
 
 ## 1. Create the SQS queue
 
@@ -15,7 +16,7 @@
 - Name: SubmitOrderFunction
 - Python 3.9 runtime
 
-2. Add the following code. Replace the `YOU_SQS_URL` with your SQS URL
+2. Add the following code. Replace the `YOUR_SQS_URL` with your SQS URL
    ```python
      import json
     import boto3
